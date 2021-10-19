@@ -1,0 +1,32 @@
+<html class="gr__servertest_oklomsy_ga"><head>
+<title>Oklomsy</title>
+</head>
+<body data-gr-c-s-loaded="true">
+<h1>Oklomsy's server test</h1>
+
+
+<p>This site is still a work in progress.</p>
+<hr>
+<h2>How does the server sort traffic to different websites hosted on the same server?</h2>
+<p>Well first off, we check the url to see if the user is requesting a specific site and we redirect them there. this happens if you go to the root of the server.
+<br><br>we can add different domains by simply changing the JavaScript file inside of the root and the DNS of said domain.
+<br><br>
+we add a "A" DNS record that points to this server's IP with a subdomain or none at all.
+<br><br>
+We can't use CNAME records because they do not allow you to put a IP. they only allow domain names so unless you have a domain name that points to a file that redirects you to the IP you want, it's better to use A records instead.
+<br><br>
+There is a big problem with "A" records though, they redirect your domain to the ENTIRE server, so through this site I can access other sites stored on this server that I shouldn't be able to, but that's okay. we don't store anything secret in here, well, we used to. We had a mail server but because the server was broken I had to reinstall everything, I backed up everything but it is gone sadly, well we can always install a new one i guess.
+</p>
+<hr>
+<h2>Blog stuff</h2>
+<hr>
+<h3>No it didnt work</h3>
+<p>Date: 5/15/2020 (MM/DD/YYYY)</p>
+<p>If you are reading this then either I got the server to work or I am trying to get the server to work. Apparently, upnpc makes a Private Network IP that looks like a public IP. and also my ISP disables the port forward when the server is inactive i guess? I am not sure whats going on tbh. the old ISP was a lot slower but it atleast allowed servers to work. I am not saying my new ISP is bad, they are very fast and very cheap but they do not like servers.</p>
+<br>
+<h3>I finally got this shitty server to work.</h3>
+<p>Date: 4/21/2020 (MM/DD/YYYY)</p>
+<p>I did it... I got this server to work. I can finally revive <a href="http://ilikema.ga" target="_blank">ilikema.ga</a><br><br>Basically what happened is that I switched to a new faster ISP which was good but I didn't know how to port forward properly for a long time, Today I decided to give it a try. it worked. I can point it to a domain now. I have decided to point this specific site to <a href="http://servertest.oklomsy.ga">servertest.oklomsy.ga</a> Although I have a working site hosted in GitHub Pages, I want this small scale site for PHP experiments and things like that</p>
+<p>Alright, goodbye bois. I going to play some SCP:SL and inform my friend (He controls ilikema.ga) to update the DNS stuff. Goodnight!</p>
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
