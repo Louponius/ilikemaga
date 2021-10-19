@@ -36,3 +36,7 @@ Now it's just a historical memory stored on my USB
 and on Github for the entire world to see...
 
 -- Oklomsy, 2021 :)
+
+# Any mirrors?
+
+I am looking to publish it on my official cgit server: https://git.oklomsy.com
